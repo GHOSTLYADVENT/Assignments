@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <script src="https://kit.fontawesome.com/8a3f395d30.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="main-header">
+        <div class="span-logo">
+            <div class="logo"></div>
+        </div>
+        <div class="span"><h1 id="header-txt">JOEL OFFIONG</h1></div>
+        <div id="navbar">
+            <ul>
+                <li class="my-list"><a href="index.html">Home</a></li>
+                <li class="my-list"><a href="#about-me">About Me</a></li>
+                <li class="my-list"><a href="#skills">Skills</a></li>
+                <li class="my-list"><a href="#code-plateau">Code Plateau</a></li>
+                <li class="my-list"><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <main id="section-view">
+        <div id="me">
+            <div id="personal-photo"></div>
+            <div id="text-photo">
+                <h1 class="header">About Me</h1>
+                <p class="para">Hello, I am a Practicing Software engineer and fellow of CODE PLATEAU residing in Jos, Plateau State, welcome to my Portfolio page, Get to know about me more</p>
+            </div>
+        </div>
+        <section class="info" id="about-me">
+            <h4>Where I'm from?</h4>
+            <div id="about-joe">
+                <div class="naija-img"></div>
+                <p>I come from the southern part of Nigeria, I hail from Akwa Ibom State grew Up in a family of 6 in a popular place know as Warri, Delta State.
+            </div>
+            <h4>What I Love?</h4>
+            <div class="what-i-love">
+                <div class="ctrl1">
+                    <h5>CHESS</h5>
+                    <div class="chess"></div>
+                    <div class="chess"></div>
+                </div>
+                <div class="ctrl2">
+                    <h5>HIKING</h5>
+                </div>
+                <div class="ctrl3">
+                    <h5>GOOD MUSIC</h5>
+                </div>
+                <div class="ctrl4">
+                    <h5>READING</h5>
+                </div>
+                <div class="ctrl5">
+                    <h5>GOOD PHOTOS</h5>
+                    <div class="good-photos good-photos1"></div>
+                    <div class="good-photos good-photos2"></div>
+                    <div class="good-photos good-photos3"></div>
+                    <div class="good-photos good-photos4"></div>
+                    <div class="good-photos good-photos5"></div>
+                    <div class="good-photos good-photos6"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="info" id="skills">
+            <div class="me">
+                <h1 class="header">Skills</h1>
+                <p class="para">I am a proud holder of <abbr title="Bachelor of Science">Bsc</abbr> in Mathematics and Statistics. I have had experience as Auditor of Pensions for 6 months with the Rivers State Government, I also had quite an exposure as I taught Senior secondary school teacher, with high impact of effective teaching both in Mathematics and Physics. I also analyze the forex markets alongside synthetics, I am a fast learner, and I have this believe that if I truly put my mind to something, then I can achieve it!! Life has taught me that it is indeed a parallel space in a world of nothingness, I take my time in evaluations, both good and bad. I have great people skills. I am also a badass real-life Portrait artist been drawing since kindergarten three, I've built my skills in different capacity with the use of digital softwares like Civil 3D used by Civil Engineers, SPSS a statistical package used by statisticians and other sectors, I have quite an experience with use of Python language and an intermediate level of Javascript programming. I like to refer to myself as a cool Techie, Tech is lovely and all my life, I've wanted to be in the tech sphere, glad to be in it. You should join in too, you won't ever regret it!! </p>
+                <div></div>
+            <div class="artwork">
+                <h3>A little collection of my artworks</h3>
+                <div class="arts1"></div>
+                <div class="arts2"></div>
+                <div class="arts3"></div>
+            </div>
+            </div>
+        </section>
+    
+        <section class="info" id="code-plateau">
+            <div class="me">
+                <h1 class="header">Code Plateau</h1>
+                <p class="para">My experience in Code Plateau has been one of a kind, sincerely I must say, I am indeed lucky and at the same time really grateful to be a part of the tech sphere of Code Plateau. I have been opportuned to meet great minds of all sorts as youths in their prime try to grasp a chunk of the Tech sphere, It makes youths to learn to slove problems by themselves, rather than looking for who will assist them with problem solving. With my intermediate knowledge of coding, in humility, I don't hope to be perfect, I only wish to be among the greats. Thank you CODE PLATEAU!!!</p>
+            </div>
+        </section>
+        </main>
+        <div class="mes" id="contact">
+            <h1 class="header">Contact</h1>
+            <form class="my-form">
+                <div class="inpu">
+                    <label for="">Email</label>
+                    <input type="email" name="" id="mail" placeholder="Enter Email Address...">
+                </div>
+                <div class="inpu">
+                    <label for="">Message</label>
+                    <textarea name="" id="" placeholder="Write a Message to me..."></textarea>
+                </div>
+                <div class="inpu">
+                    <input type="submit" value="Send Message">
+                </div>
+            </form>
+        </div>
+
+    <footer id="main-footer">
+       <p>copyright &copy; 2022 <a href="mailto:offiongjoel@gmail.com">Joel Offiong<small>JoeyBadass</small></a></p>
+       <div class="icons">
+        <a href="https://facebook.com" class="iconic"><i class="fab fa-facebook"></i></a>
+        <a href="https://instagram.com" class="iconic"><i class="fab fa-instagram"></i></a>
+        <a href="https://linkedin.com" class="iconic"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://twitter.com" class="iconic"><i class="fab fa-twitter"></i></a>
+       </div>
+
+    </footer>
+    <!-- 
+        Icons can easily be added to your HTML page, by using an icon library. The simplest way to add an icon to your HTML page, is with an icon library, such as Font Awesome. Add the name of the specified icon class to any inline HTML element (like <i> or <span> )
+
+            link to another link
+            <a href="#link1">Take me to Link 1</a>
+            <a id="link1">Link 1</a>
+     -->
+</body>
+</html>
